@@ -5,9 +5,9 @@ export const Wrapper = styled.aside `
   background-color: white;
   height: 100%;
   max-width: 220px;
+  position: fixed;
   padding-left: .5rem;
   padding-right: .5rem;
-  position: fixed;
   left: 0;
   top: 56px;
   bottom: 0;

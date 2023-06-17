@@ -7,6 +7,7 @@ import { CiSearch } from 'react-icons/ci'
 
 export const color = {
   text: "#0f0f0f",
+  textLight: "#606060",
   title: "#0f0f0f",
   bgLight: "#fff",
   bgGray: "#f8f8f8",
@@ -87,6 +88,12 @@ export const fSize = {
   small: ".75rem",
   normal: "1rem",
 
+}
+
+export const pseudoCfg = {
+  content: '""',
+  display: "block",
+  position: "absolute"
 }
 
 export const GlobalStyle = createGlobalStyle`

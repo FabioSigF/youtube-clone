@@ -2,8 +2,11 @@ import { styled } from "styled-components";
 import { padding } from "../../GlobalStyle";
 
 export const Container = styled.header`
-  position: sticky;
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100vw;
   height: 56px;
 `
