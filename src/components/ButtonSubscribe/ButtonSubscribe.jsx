@@ -1,7 +1,10 @@
 import React from 'react'
+import { Wrapper } from './ButtonSubscribe.styles'
 
 export default function ButtonSubscribe() {
   return (
-    <div>Inscreva-se</div>
+    <Wrapper>
+      Inscrever-se
+    </Wrapper>
   )
 }

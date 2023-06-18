@@ -1,7 +1,8 @@
 import React from 'react'
+import { Wrapper } from './ButtonMember.styles'
 
 export default function ButtonMember() {
   return (
-    <div>ButtonMember</div>
+    <Wrapper>Seja membro</Wrapper>
   )
 }

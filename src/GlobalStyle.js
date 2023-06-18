@@ -8,12 +8,15 @@ import { CiSearch } from 'react-icons/ci'
 export const color = {
   text: "#0f0f0f",
   textLight: "#606060",
+  textWhite: "#fff",
   title: "#0f0f0f",
   bgLight: "#fff",
   bgGray: "#f8f8f8",
   bgGrayHover: "#f0f0f0",
   buttonLight: "#f8f8f8",
   buttonLightHover: "#f0f0f0",
+  buttonDark: "#0f0f0f",
+  buttonDarkHover: "#272727",
   primary: "#f00",
   primaryDark: "#c00",
   grayBorder: "#d3d3d3",
@@ -23,7 +26,7 @@ export const color = {
 export const iconList = {
   youtube: <FaYoutube />,
   search: <CiSearch />,
-  
+  share: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style={{pointerEvents: "none", display: "block"}}><g mirror-in-rtl="" class="style-scope yt-icon"><path d="M15,5.63L20.66,12L15,18.37V15v-1h-1c-3.96,0-7.14,1-9.75,3.09c1.84-4.07,5.11-6.4,9.89-7.1L15,9.86V9V5.63 M14,3v6 C6.22,10.13,3.11,15.33,2,21c2.78-3.97,6.44-6,12-6v6l8-9L14,3L14,3z" class="style-scope yt-icon"></path></g></svg>,
   cam: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style={{display: "block", pointerEvents:"none"}}><g><path d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"></path></g></svg>,
 
   bell: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style={{pointerEvents: "none", display: "block"}}><g><path d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"></path></g></svg>,
@@ -46,6 +49,8 @@ export const iconList = {
   seeLater: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style={{pointerEvents: "none", display: "block"}}><g><path d="M14.97,16.95L10,13.87V7h2v5.76l4.03,2.49L14.97,16.95z M12,3c-4.96,0-9,4.04-9,9s4.04,9,9,9s9-4.04,9-9S16.96,3,12,3 M12,2c5.52,0,10,4.48,10,10s-4.48,10-10,10S2,17.52,2,12S6.48,2,12,2L12,2z"></path></g></svg>,
 
   like: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style={{pointerEvents: "none", display: "block"}}><g><path d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"></path></g></svg>,
+
+  deslike: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style={{pointerEvents: "none", display: "block"}}><g class="style-scope yt-icon"><path d="M17,4h-1H6.57C5.5,4,4.59,4.67,4.38,5.61l-1.34,6C2.77,12.85,3.82,14,5.23,14h4.23l-1.52,4.94C7.62,19.97,8.46,21,9.62,21 c0.58,0,1.14-0.24,1.52-0.65L17,14h4V4H17z M10.4,19.67C10.21,19.88,9.92,20,9.62,20c-0.26,0-0.5-0.11-0.63-0.3 c-0.07-0.1-0.15-0.26-0.09-0.47l1.52-4.94l0.4-1.29H9.46H5.23c-0.41,0-0.8-0.17-1.03-0.46c-0.12-0.15-0.25-0.4-0.18-0.72l1.34-6 C5.46,5.35,5.97,5,6.57,5H16v8.61L10.4,19.67z M20,13h-3V5h3V13z" class="style-scope yt-icon"></path></g></svg>,
 
   trending: <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style={{pointerEvents: "none", display: "block"}}><g><path d="M19,3.87v9.77C19,17.7,15.86,21,12,21c-3.86,0-7-3.3-7-7.37V13.5c0-1.06,0.22-2.13,0.62-3.09c0.5-1.19,1.29-2.21,2.27-2.97 c0.85-0.66,1.83-1.14,2.87-1.65c0.39-0.19,0.77-0.38,1.15-0.58c0.36-0.19,0.72-0.38,1.08-0.56V6v1.87l1.55-1.04L19,3.87 M20,2l-6,4 V3c-0.85,0.44-1.7,0.88-2.55,1.33c-1.41,0.74-2.9,1.34-4.17,2.32C6.15,7.52,5.26,8.7,4.7,10.02C4.24,11.11,4,12.31,4,13.5 c0,0.03,0,0.12,0,0.14C4,18.26,7.58,22,12,22c4.42,0,8-3.74,8-8.36V2L20,2z M9.45,12.89L14,10v5.7c0,1.82-1.34,3.3-3,3.3 s-3-1.47-3-3.3C8,14.51,8.58,13.47,9.45,12.89z"></path></g></svg>,
 
@@ -88,7 +93,7 @@ export const fSize = {
   small_xx: ".7rem",
   small_x: ".75rem",
   small: ".85rem",
-  normal: "1rem",
+  normal: ".875rem",
 
 }
 

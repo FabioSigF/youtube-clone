@@ -95,7 +95,7 @@ export default function Video() {
               </ChannelButtons>
             </ChannelInfo>
             <VideoButtons>
-              <ButtonLike />
+              <ButtonLike likes={data.likes}/>
               <ButtonShare />
             </VideoButtons>
           </Bar>
