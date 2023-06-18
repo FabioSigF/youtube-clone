@@ -8,6 +8,7 @@ import Login from './pages/Login/Login'
 import { Wrapper } from './App.styles'
 import Channel from './pages/Channel/Channel'
 import AddVideo from './pages/AddVideo/AddVideo'
+import Video from './pages/Video/Video'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/channel" element={<Channel />} />
           <Route path="/add-video" element={<AddVideo />} />
+          <Route path='/video' element={<Video />}/>
         </Routes>
       </Wrapper>
       <Footer />

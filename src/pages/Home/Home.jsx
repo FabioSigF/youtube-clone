@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react'
 
 import './Home.styles'
-import Video from '../../components/Video/Video'
+import Video from '../../components/VideoCard/VideoCard'
 import { Wrapper } from './Home.styles'
 
 import { db } from '../../config/firebase';
 import { getDocs, collection } from 'firebase/firestore';
 
 export default function Home() {
+  
   const [videoList, setVideoList] = useState([]);
+
   const videosCollectionRef = collection(db, "videos")
   const getVideoList = async() => {
     try {
@@ -25,8 +27,6 @@ export default function Home() {
   useEffect(() => {
     getVideoList();
   }, [videoList]);
-  
-  
 
   return (
     <Wrapper>

@@ -85,7 +85,9 @@ export const fFamily = {
 }
 
 export const fSize = {
-  small: ".75rem",
+  small_xx: ".7rem",
+  small_x: ".75rem",
+  small: ".85rem",
   normal: "1rem",
 
 }
